@@ -27,7 +27,10 @@
 }
 
 .App-section {
+  justify-content: center;
   flex: 1 1 0;
+  flex-direction: row;
+  display: flex;
   background-color: hsl(220deg 13% 13%);
   color: white;
 }
@@ -43,4 +46,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.classUnavailable {
+  color: green;
 }
